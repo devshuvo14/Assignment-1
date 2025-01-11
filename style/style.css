@@ -16,15 +16,22 @@ header{
     align-items: center;
 }
 
-.Sign{
-    border: 1px solid #006A50;
-    border-radius: 5px;
+header button {
+
+    padding: 10px 15px;
+    font-size: 16px ;
+    border: 1.5px solid green ;
+   border-radius: 5px;
+    
 }
 
-.sign a{
-    text-decoration: none;
-    padding: 10px;
+header button a {
+    text-decoration: none ;
+    color: green;
+    font-weight: 600;
 }
+
+
 .hero{
     display: flex;
     justify-content: space-between;
@@ -40,9 +47,26 @@ header{
 
 .div1 p {
     font-size: 25px !important;
+    color: gray;
+    font-weight: 700;
     
 }
 
+
+.btn-hero{
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+
+
+.btn-hero a{
+    color: white;
+    text-decoration: none ;
+    font-weight: 600;
+}
 .div1 h3{
 
     font-size: 45px;
@@ -58,7 +82,7 @@ header{
 .skills{
     padding: 30px;
     background-color: #ffffff;
-    border: 1px solid;
+    border: 1px solid rgba(40, 37, 37, 0.29);
     border-radius: 10px;
 }
 .skills-title{
@@ -72,9 +96,20 @@ header{
     display: flex;
     gap: 24px;
 }
-.box{
+
+.box1{
     padding: 30px;
-    background-color: aqua;
+    background-color: #6995df86;
+    border-radius: 10px;
+}
+.box2{
+    padding: 30px;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+}
+.box3{
+    padding: 30px;
+    background-color: #f7ebcf;
     border-radius: 10px;
 }
 
@@ -84,6 +119,48 @@ header{
     
 }
 
+.btn-vision{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+    background-color: #0c46a986;
+}
+
+.btn-vision1{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+    background-color: #00ad5c;
+    
+}
+
+.btn-vision2{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border:none;
+    background-color: #9e7412;
+}
+
+
+.btn-vision  a{
+    text-decoration: none ;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-vision1  a{
+    text-decoration: none ;
+    font-weight: 600;
+    color: white;
+}
+
+
+.btn-vision2  a{
+    text-decoration: none ;
+    font-weight: 600;
+    color: white;
+}
+
 .main-three{
     display: flex;
     justify-content: space-between;
@@ -91,6 +168,11 @@ header{
     gap: 20px;
 }
 
+.vision{
+    font-size: 26px;
+    margin: 0px;
+    padding-top: 10%;
+}
 
 .testimonial-section{
     background-image: url(/image/quote-bg.png);
@@ -188,3 +270,11 @@ header{
 
 
 
+.four h3 {
+    font-size:35px;
+    font-weight: 600;
+}
+
+.bg-news img{
+    border-radius: 10px;
+}
