@@ -1,0 +1,190 @@
+body{
+    margin: 0px;
+    padding: 0px 80px;
+    background-color: #F1F1F3;
+    
+}
+header .title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #0E0E0E;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Sign{
+    border: 1px solid #006A50;
+    border-radius: 5px;
+}
+
+.sign a{
+    text-decoration: none;
+    padding: 10px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    gap: 30px;
+    border-radius: 10px;
+    padding: 45px;
+}
+
+
+
+
+.div1 p {
+    font-size: 25px !important;
+    
+}
+
+.div1 h3{
+
+    font-size: 45px;
+    
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.skills{
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.skills-title{
+    font-weight: bold;
+    font-size: 24px;
+    color: #0E0E0E;
+}
+
+
+.fast-container{
+    display: flex;
+    gap: 24px;
+}
+.box{
+    padding: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.fast-container{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.main-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.testimonial-section{
+    background-image: url(/image/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 10px;
+   
+    
+}
+
+.main-testimonial{
+    padding: 30px 10px;
+    background-color: white;
+    margin: 3% 0px;
+    border-radius: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    
+}
+
+.testimonial-section h3{
+    margin: 0px;
+    padding-top: 10px;
+}
+.testimonial-section p {
+    margin: 0px;
+}
+
+.main-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+.alpha-group{
+
+    border: 1px solid rgba(31, 29, 29, 0.192);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 3px;
+}
+
+.table-column{
+    display: flex;
+    
+}
+
+
+
+
+
+
+.container-table {
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0p
+    
+}
+
+.container-table h1 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.opinion-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.opinion-table th {
+    background-color: #d9f7be;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.opinion-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+.opinion-table td select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+
+
