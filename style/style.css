@@ -27,7 +27,7 @@ header button {
 
 header button a {
     text-decoration: none ;
-    color: green;
+    color: rgb(25, 255, 25);
     font-weight: 600;
 }
 
@@ -402,8 +402,8 @@ button a{
     padding: 40px 20px;
     border-radius: 12px;
     text-align: center;
-    width: 100%;
-    max-width: 600px;
+    
+    margin: 40px 0px;
     
 }
 
@@ -484,3 +484,5 @@ footer h2 {
     border-bottom: 1px solid rgba(128, 128, 128, 0.507);
     padding: 15px 10%;
 }
+
+
