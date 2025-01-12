@@ -275,6 +275,16 @@ header button a {
     font-weight: 600;
 }
 
-.bg-news img{
+
+.main-conten{
+    background-color: #9e7412;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.eidt-img{
     border-radius: 10px;
 }
+
